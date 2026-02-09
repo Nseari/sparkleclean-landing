@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Nseari/sparkleclean-landing.git/static/css/main.79996d84.css",
-    "main.js": "/Nseari/sparkleclean-landing.git/static/js/main.a3041bcf.js",
-    "index.html": "/Nseari/sparkleclean-landing.git/index.html",
-    "main.79996d84.css.map": "/Nseari/sparkleclean-landing.git/static/css/main.79996d84.css.map",
-    "main.a3041bcf.js.map": "/Nseari/sparkleclean-landing.git/static/js/main.a3041bcf.js.map"
+    "main.css": "/sparkleclean-landing/static/css/main.79996d84.css",
+    "main.js": "/sparkleclean-landing/static/js/main.a3041bcf.js",
+    "index.html": "/sparkleclean-landing/index.html",
+    "main.79996d84.css.map": "/sparkleclean-landing/static/css/main.79996d84.css.map",
+    "main.a3041bcf.js.map": "/sparkleclean-landing/static/js/main.a3041bcf.js.map"
   },
   "entrypoints": [
     "static/css/main.79996d84.css",
