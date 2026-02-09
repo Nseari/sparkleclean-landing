@@ -9,7 +9,6 @@ export default function QRCard() {
           Scan to visit us
         </h3>
 
-        {/* QR code points to your GitHub Pages site */}
         <a
           href="https://nseari.github.io/sparkleclean-landing/"
           target="_blank"
