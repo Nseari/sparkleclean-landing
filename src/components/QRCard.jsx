@@ -11,9 +11,13 @@ export default function QRCard() {
         </h3>
 
         {/* Generate QR code dynamically */}
-        <a href="https://sparkleclean-abuja.com" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://nseari.github.io/sparkleclean-landing/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <QRCodeCanvas
-            value="https://sparkleclean-abuja.com"   // Replace with your website or contact link
+            value="https://nseari.github.io/sparkleclean-landing/"  // Your live site URL
             size={160}                              // QR code size
             bgColor="transparent"                   // Background color
             fgColor="#3F00FF"                       // Marian blue foreground
