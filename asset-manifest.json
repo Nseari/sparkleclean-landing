@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Nseari/sparkleclean-landing.git/static/css/main.79996d84.css",
+    "main.js": "/Nseari/sparkleclean-landing.git/static/js/main.a3041bcf.js",
+    "index.html": "/Nseari/sparkleclean-landing.git/index.html",
+    "main.79996d84.css.map": "/Nseari/sparkleclean-landing.git/static/css/main.79996d84.css.map",
+    "main.a3041bcf.js.map": "/Nseari/sparkleclean-landing.git/static/js/main.a3041bcf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79996d84.css",
+    "static/js/main.a3041bcf.js"
+  ]
+}
