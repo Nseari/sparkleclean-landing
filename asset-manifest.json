@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sparkleclean-landing/static/css/main.79996d84.css",
-    "main.js": "/sparkleclean-landing/static/js/main.a3041bcf.js",
+    "main.js": "/sparkleclean-landing/static/js/main.ad3df8b2.js",
     "index.html": "/sparkleclean-landing/index.html",
     "main.79996d84.css.map": "/sparkleclean-landing/static/css/main.79996d84.css.map",
-    "main.a3041bcf.js.map": "/sparkleclean-landing/static/js/main.a3041bcf.js.map"
+    "main.ad3df8b2.js.map": "/sparkleclean-landing/static/js/main.ad3df8b2.js.map"
   },
   "entrypoints": [
     "static/css/main.79996d84.css",
-    "static/js/main.a3041bcf.js"
+    "static/js/main.ad3df8b2.js"
   ]
 }
