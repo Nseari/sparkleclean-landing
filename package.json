@@ -2,7 +2,7 @@
   "name": "sparkleclean-landing",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://nseari.github.io/sparkleclean-landing",
+//  "homepage": "https://nseari.github.io/sparkleclean-landing",
   "dependencies": {
     "@react-three/drei": "^9.56.4",
     "@react-three/fiber": "^8.13.2",
