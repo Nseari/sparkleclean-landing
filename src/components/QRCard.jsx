@@ -1,7 +1,6 @@
 import React from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
 
-// Glassmorphism QR card with auto-generated QR code
 export default function QRCard() {
   return (
     <div className="relative z-10 flex justify-center mt-10">
@@ -10,19 +9,19 @@ export default function QRCard() {
           Scan to visit us
         </h3>
 
-        {/* Generate QR code dynamically */}
+        {/* QR code points to your GitHub Pages site */}
         <a
           href="https://nseari.github.io/sparkleclean-landing/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <QRCodeCanvas
-            value="https://nseari.github.io/sparkleclean-landing/"  // Your live site URL
-            size={160}                              // QR code size
-            bgColor="transparent"                   // Background color
-            fgColor="#3F00FF"                       // Marian blue foreground
-            level="H"                               // Error correction level
-            includeMargin={true}                    // Adds margin around QR
+            value="https://nseari.github.io/sparkleclean-landing/"
+            size={160}
+            bgColor="transparent"
+            fgColor="#3F00FF"
+            level="H"
+            includeMargin={true}
           />
         </a>
       </div>
