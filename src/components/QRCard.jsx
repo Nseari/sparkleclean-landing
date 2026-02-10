@@ -2,6 +2,15 @@ import React from 'react';
 import { QRCodeCanvas } from 'qrcode.react';
 
 export default function QRCard() {
+  // Detect current host
+  const host = window.location.hostname;
+
+  // Decide which link to use
+  let siteUrl = "https://nseari.github.io/sparkleclean-landing/"; // default
+  if (host.includes("vercel.app")) {
+    siteUrl = "https://sparkleclean-landing.vercel.app/";
+  }
+
   return (
     <div className="relative z-10 flex justify-center mt-10">
       <div className="bg-white/30 backdrop-blur-md p-6 rounded-xl shadow-lg border border-white/20">
@@ -9,13 +18,9 @@ export default function QRCard() {
           Scan to visit us
         </h3>
 
-        <a
-          href="https://nseari.github.io/sparkleclean-landing/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={siteUrl} target="_blank" rel="noopener noreferrer">
           <QRCodeCanvas
-            value="https://nseari.github.io/sparkleclean-landing/"
+            value={siteUrl}
             size={160}
             bgColor="transparent"
             fgColor="#3F00FF"
